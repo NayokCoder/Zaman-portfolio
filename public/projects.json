@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "title": "myGov IT Service Management",
+    "overview": "Currently, I am working as a Project Manager for the myGov IT Service Management project, where we are implementing the myGov platform to digitize government services, facilitating G2G (Government to Government), G2B (Government to Business), and G2C (Government to Citizen) interactions. The platform enables citizens to apply for services online, government officials to process applications through multi-desk workflows, and certificates to be delivered via citizen dashboards.",
+
+    "client": "Bangladesh Government",
+    "techStack": ["PHP", "Laravel", "MySQL", "CI/CD"],
+    "description": "▪ Service Digitization: Implemented the myGov platform to digitize services for citizens, businesses, and government entities.<br>▪ Citizen Access: Enabled citizens to submit online applications for various government services such as certificates, licenses, and permits.<br>▪ Service Workflow: Configured multi-desk approval workflows, allowing government officials to process and approve applications through a secure system.<br>▪ End-to-End Solution: Delivered digital certificates via citizen dashboards after processing and approval.<br>▪ Technologies Used: The project utilizes PHP, Laravel, and MySQL for platform development, with continuous integration and delivery practices (CI/CD) to ensure smooth updates and scalability.",
+    "CurrentActivities": "▪ Requirement Analysis: Collaborated with government service organizations to gather and analyze requirements for service digitization.<br>▪ Service Configuration: Configured form builders for application forms and template builders for certificate generation.<br>▪ Workflow Setup: Developed and implemented approval workflows for efficient service processing.<br>▪ Infrastructure Management: Managed platform environments, ensuring proper setup for development, testing, staging, and production.<br>▪ DevOps Practices: Integrated CI/CD pipelines for frequent updates, efficient version control, and optimized delivery.<br>▪ Ongoing Support: Provided training to government officials and managed help desk services for user support and troubleshooting.",
+
+    "MajorClients": "58 Ministry/division of Bangladesh, 353 Govt Offices, 8 Divisions, 64 districts, 492 upozilla, 4554 unions having total 33,000 offices are currently using this application under National portal of Bangladesh and it will be increased gradually as per demand.",
+    "title2": "Project High-Level Description",
+    "title3": "Current Activities",
+    "title4": "Major Clients/Users",
+    "title5": "Project Overview"
+  },
+  {
+    "id": 2,
+    "title": "Bangladesh National Portal Enhancement",
+    "overview": "Currently, I am serving as the Project Manager for the myGov IT Service Management initiative, where we are spearheading the implementation of the myGov platform to digitize government services and streamline interactions across G2G (Government to Government), G2B (Government to Business), and G2C (Government to Citizen) domains. This platform empowers citizens to apply for public services online, enables government officials to manage and process these applications through a structured multi-desk workflow, and facilitates the issuance of digital certificates directly through citizen dashboards — ensuring greater transparency, efficiency, and accessibility.",
+    "client": "a2i, Bangladesh",
+    "techStack": ["PHP", "Laravel", "MySQL", "CI/CD"],
+    "description": "National Portal development and enhancement to improve service access, security, scalability, and user experience.",
+    "details": "Secure Architecture\nOpen Source Framework\nUser-friendly Design\nAgile Practices\nInfrastructure and DevOps\nStakeholder Engagement\nClients: 33,000+ Govt Offices"
+  },
+  {
+    "id": 3,
+    "title": "Tonga Family Protection Legal Aid Centre (FPLAC)",
+    "overview": "Currently, I am serving as the Project Manager for the myGov IT Service Management initiative, where we are spearheading the implementation of the myGov platform to digitize government services and streamline interactions across G2G (Government to Government), G2B (Government to Business), and G2C (Government to Citizen) domains. This platform empowers citizens to apply for public services online, enables government officials to manage and process these applications through a structured multi-desk workflow, and facilitates the issuance of digital certificates directly through citizen dashboards — ensuring greater transparency, efficiency, and accessibility.",
+    "client": "UNDP & a2i",
+    "techStack": ["Web", "Android"],
+    "description": "Digital platform for access to legal aid and family violence reporting in Tonga.",
+    "details": "Online Legal Info & Self-Help\nData Security Planning\nPhase-wise Development\nSafe Anonymous Access\nKnowledge Transfer"
+  },
+  {
+    "id": 4,
+    "title": "NBR VAT Management Software",
+    "overview": "Currently, I am serving as the Project Manager for the myGov IT Service Management initiative, where we are spearheading the implementation of the myGov platform to digitize government services and streamline interactions across G2G (Government to Government), G2B (Government to Business), and G2C (Government to Citizen) domains. This platform empowers citizens to apply for public services online, enables government officials to manage and process these applications through a structured multi-desk workflow, and facilitates the issuance of digital certificates directly through citizen dashboards — ensuring greater transparency, efficiency, and accessibility.",
+    "client": "National Board of Revenue",
+    "techStack": ["C#", "ASP.NET", "SQL Server"],
+    "description": "Comprehensive VAT processing software for manufacturing, trading, and service organizations.",
+    "details": "Multi-company Support\nPurchase/Sales Management\nInventory Tracking\nVAT Return Automation\nAudit & Compliance Tools\nClients: Square, Beximco, Incepta, Transcom"
+  },
+  {
+    "id": 5,
+    "title": "Human Resource Management Software",
+    "overview": "Currently, I am serving as the Project Manager for the myGov IT Service Management initiative, where we are spearheading the implementation of the myGov platform to digitize government services and streamline interactions across G2G (Government to Government), G2B (Government to Business), and G2C (Government to Citizen) domains. This platform empowers citizens to apply for public services online, enables government officials to manage and process these applications through a structured multi-desk workflow, and facilitates the issuance of digital certificates directly through citizen dashboards — ensuring greater transparency, efficiency, and accessibility.",
+    "client": "Corporate Clients",
+    "techStack": [".NET", "SQL Server"],
+    "description": "End-to-end HR automation system for corporate clients.",
+    "details": "Employee & Payroll Management\nESS, Leave & Attendance\nTax, Asset, Travel Management\nClients: Khulna Power Plant, Avery Denison"
+  },
+  {
+    "id": 6,
+    "title": "Sales & Distribution Management Software",
+    "overview": "Currently, I am serving as the Project Manager for the myGov IT Service Management initiative, where we are spearheading the implementation of the myGov platform to digitize government services and streamline interactions across G2G (Government to Government), G2B (Government to Business), and G2C (Government to Citizen) domains. This platform empowers citizens to apply for public services online, enables government officials to manage and process these applications through a structured multi-desk workflow, and facilitates the issuance of digital certificates directly through citizen dashboards — ensuring greater transparency, efficiency, and accessibility.",
+    "client": "Dan Foods Bangladesh Ltd.",
+    "techStack": [".NET", "SQL Server"],
+    "description": "System for managing item, requisition, distribution, and sales.",
+    "details": "Requisition & Inventory\nDistributor and Depot Management\nSales & Accounts\nReport Generation"
+  },
+  {
+    "id": 7,
+    "title": "Freeze Distribution Monitoring Software (FDMS)",
+    "overview": "Currently, I am serving as the Project Manager for the myGov IT Service Management initiative, where we are spearheading the implementation of the myGov platform to digitize government services and streamline interactions across G2G (Government to Government), G2B (Government to Business), and G2C (Government to Citizen) domains. This platform empowers citizens to apply for public services online, enables government officials to manage and process these applications through a structured multi-desk workflow, and facilitates the issuance of digital certificates directly through citizen dashboards — ensuring greater transparency, efficiency, and accessibility.",
+    "client": "Polar Ice Cream, Dhaka Ice Cream",
+    "techStack": [".NET", "SQL Server"],
+    "description": "Software to manage freezer placement, tracking and maintenance.",
+    "details": "Inventory & Placement\nService, Payment, Export/Import\nNotification & Dashboard Management"
+  },
+  {
+    "id": 8,
+    "title": "Planning and Scheduling Software",
+    "overview": "Currently, I am serving as the Project Manager for the myGov IT Service Management initiative, where we are spearheading the implementation of the myGov platform to digitize government services and streamline interactions across G2G (Government to Government), G2B (Government to Business), and G2C (Government to Citizen) domains. This platform empowers citizens to apply for public services online, enables government officials to manage and process these applications through a structured multi-desk workflow, and facilitates the issuance of digital certificates directly through citizen dashboards — ensuring greater transparency, efficiency, and accessibility.",
+    "client": "Urban Design and Development Ltd.",
+    "techStack": [".NET", "SQL Server"],
+    "description": "Schedule management solution for real estate development projects.",
+    "details": "Department & Project View\nActivity Management\nSettings & Reports"
+  },
+  {
+    "id": 9,
+    "title": "Big Data Management & Monitoring Tool",
+    "overview": "Currently, I am serving as the Project Manager for the myGov IT Service Management initiative, where we are spearheading the implementation of the myGov platform to digitize government services and streamline interactions across G2G (Government to Government), G2B (Government to Business), and G2C (Government to Citizen) domains. This platform empowers citizens to apply for public services online, enables government officials to manage and process these applications through a structured multi-desk workflow, and facilitates the issuance of digital certificates directly through citizen dashboards — ensuring greater transparency, efficiency, and accessibility.",
+    "client": "USAID",
+    "techStack": ["Custom DB Tools"],
+    "description": "Bag tracking database for Sundarbans monitoring.",
+    "details": "Tracking & Monitoring\nData Analytics Support"
+  },
+  {
+    "id": 10,
+    "title": "Point of Sales (POS) Management Software",
+    "overview": "Currently, I am serving as the Project Manager for the myGov IT Service Management initiative, where we are spearheading the implementation of the myGov platform to digitize government services and streamline interactions across G2G (Government to Government), G2B (Government to Business), and G2C (Government to Citizen) domains. This platform empowers citizens to apply for public services online, enables government officials to manage and process these applications through a structured multi-desk workflow, and facilitates the issuance of digital certificates directly through citizen dashboards — ensuring greater transparency, efficiency, and accessibility.",
+    "client": "Local Markets",
+    "techStack": [".NET", "SQL Server"],
+    "description": "POS software for medium to large trading companies.",
+    "details": "Sales Automation\nInventory Integration\nClient Billing"
+  },
+  {
+    "id": 11,
+    "title": "Mobile Apps Development",
+    "overview": "Currently, I am serving as the Project Manager for the myGov IT Service Management initiative, where we are spearheading the implementation of the myGov platform to digitize government services and streamline interactions across G2G (Government to Government), G2B (Government to Business), and G2C (Government to Citizen) domains. This platform empowers citizens to apply for public services online, enables government officials to manage and process these applications through a structured multi-desk workflow, and facilitates the issuance of digital certificates directly through citizen dashboards — ensuring greater transparency, efficiency, and accessibility.",
+    "client": "Bangladesh Meteorological Department",
+    "techStack": ["Android", "iOS"],
+    "description": "Weather data tracking app for BMD.",
+    "details": "BMD Weather App\nAndroid & iOS Support"
+  },
+  {
+    "id": 12,
+    "title": "Website/Ecommerce Development",
+    "overview": "Currently, I am serving as the Project Manager for the myGov IT Service Management initiative, where we are spearheading the implementation of the myGov platform to digitize government services and streamline interactions across G2G (Government to Government), G2B (Government to Business), and G2C (Government to Citizen) domains. This platform empowers citizens to apply for public services online, enables government officials to manage and process these applications through a structured multi-desk workflow, and facilitates the issuance of digital certificates directly through citizen dashboards — ensuring greater transparency, efficiency, and accessibility.",
+    "client": "Local & International",
+    "techStack": ["HTML", "CSS", "JavaScript", "PHP"],
+    "description": "Developed 100+ websites and ecommerce portals.",
+    "details": "Custom Websites\nEcommerce Features\nResponsive Designs"
+  }
+]
