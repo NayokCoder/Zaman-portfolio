@@ -66,8 +66,11 @@ const Navbar = () => {
               <ul className="flex px-4 py-2 space-x-2">
                 {navLinks.map((link, index) => (
                   <li key={index} className=" transition-all duration-300 cursor-pointer">
-                    <Link href={link.to} className={`block px-4 py-1 rounded-3xl transition-colors duration-200 ${pathname === link.to ? "bg-slate-900 text-white font-semibold" : "hover:bg-gray-200"}`}>
+                    <Link href={link.to} className={`block px-4 py-1 rounded-3xl relative transition-colors duration-200 ${pathname === link.to ? "bg-slate-900 text-white font-semibold" : ""}`}>
                       {link.label}
+
+                      {/* Underline effect */}
+                      <span className={`absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100`} />
                     </Link>
                   </li>
                 ))}
