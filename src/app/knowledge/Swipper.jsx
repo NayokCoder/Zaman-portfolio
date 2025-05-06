@@ -9,8 +9,8 @@ import "swiper/css/pagination";
 
 const Swipper = () => {
   return (
-    <div className="mt-16 mb-16 px-8 py-12 rounded-3xl bg-gradient-to-br from-blue-50 via-white to-purple-50 shadow-xl">
-      <h2 className="text-4xl font-extrabold text-center text-gray-800 mb-10">💡 Tips & Tricks</h2>
+    <div className="mt-16 max-w-7xl mx-auto mb-16 px-8 py-12   ">
+      <h2 className="text-4xl font-extrabold text-center text-gray-800 mb-10"> Tips & Tricks</h2>
 
       <Swiper
         modules={[Autoplay, Navigation, Pagination]}
@@ -32,27 +32,23 @@ const Swipper = () => {
         {[
           {
             title: "Code Organization",
-            content: "Keep components small and focused. Easier to test, reuse, and debug.",
-            emoji: "🧩",
+            content: '"Keep components small and focused. Easier to test, reuse, and debug."',
           },
           {
             title: "Performance",
-            content: "Use dynamic imports and lazy loading for large components.",
-            emoji: "⚡",
+            content: '"Use dynamic imports and lazy loading for large components."',
           },
           {
             title: "Styling",
-            content: "Use Tailwind’s `@apply` for cleaner, DRY utility classes.",
-            emoji: "🎨",
+            content: '"Use Tailwind’s `@apply` for cleaner, DRY utility classes."',
           },
           {
             title: "SEO",
-            content: "Use meta tags, Open Graph data, and semantic HTML for better reach.",
-            emoji: "🔍",
+            content: '"Use meta tags, Open Graph data, and semantic HTML for better reach."',
           },
         ].map((tip, index) => (
           <SwiperSlide key={index}>
-            <div className="h-full p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+            <div className="h-60 max-w-3xs mx-auto  p-6 bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
               <div className="text-4xl mb-4">{tip.emoji}</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3">{tip.title}</h3>
               <p className="text-gray-600 text-sm leading-relaxed">{tip.content}</p>
