@@ -15,3 +15,13 @@ html {
   background: linear-gradient(to right, #434343, #000000);
   color: white;
 }
+
+.settext {
+  color: #028697;
+}
+.setbg {
+  background-color: #028697;
+}
+.setbg2 {
+  background-color: #f2f2f2;
+}

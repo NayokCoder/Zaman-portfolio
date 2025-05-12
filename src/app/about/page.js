@@ -89,7 +89,7 @@ const Page = () => {
                   <div className="flex items-center gap-2">
                     <h3 className="text-2xl font-semibold">{item.title}</h3>
                     {/* Year Badge */}
-                    <span className="text-sm bg-red-500 text-white px-3 py-1 rounded-full">{item.year}</span>
+                    <span className="text-sm setbg text-white px-3 py-1 rounded-full">{item.year}</span>
                   </div>
                 </div>
                 <ul className="list-disc list-inside space-y-2 text-base ml-2">

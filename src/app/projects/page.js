@@ -44,7 +44,6 @@ const Page = () => {
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-4xl font-extrabold text-slate-800 mb-2">Project References</h1>
-          <p className="text-lg text-indigo-600 underline underline-offset-4">Annexure-1 (Project Preferences)</p>
         </div>
 
         {/* Cards */}
@@ -56,7 +55,7 @@ const Page = () => {
 
               {/* Content */}
               <div className="space-y-4">
-                <h2 className="text-2xl font-bold text-indigo-700 group-hover:text-indigo-800">{project.title}</h2>
+                <h2 className="text-2xl font-bold settext">{project.title}</h2>
                 <p className="text-xs text-gray-400">ID: {project.id}</p>
                 <ul className="text-gray-700 text-sm space-y-1 mt-2">
                   <li>
