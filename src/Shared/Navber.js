@@ -66,7 +66,7 @@ const Navbar = () => {
               <ul className="flex px-4 py-2 space-x-2">
                 {navLinks.map((link, index) => (
                   <li key={index} className=" transition-all duration-300 cursor-pointer">
-                    <Link href={link.to} className={`block px-4 py-1 rounded-3xl relative transition-colors duration-200 ${pathname === link.to ? "bg-slate-900 text-white font-semibold" : ""}`}>
+                    <Link href={link.to} className={`block px-4 py-1 rounded-3xl relative transition-colors duration-200 ${pathname === link.to ? "setbg text-white font-semibold" : ""}`}>
                       {link.label}
 
                       {/* Underline effect */}
@@ -80,7 +80,7 @@ const Navbar = () => {
 
           {/* End - CTA */}
           <div className="navbar-end">
-            <Link href="/consultation" className="flex items-center font-semibold gap-2 border px-4 py-2 rounded-full hover:bg-gray-200 transition">
+            <Link href="/consultation" className="flex items-center  text-white  buttonx  font-semibold gap-2 border px-4 py-2 rounded-full  transition">
               Free Consultation <BsArrowUpRight />
             </Link>
           </div>

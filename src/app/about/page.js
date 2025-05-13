@@ -42,8 +42,8 @@ const Page = () => {
   ];
 
   return (
-    <section className={`${darkMode ? "bg-gray-900 text-gray-100" : "bg-gray-50 text-gray-800"} min-h-screen py-4`}>
-      <div className="max-w-6xl mx-auto px-6">
+    <section className=" bg-gradient-to-t from-purple-50 to-white ">
+      <div className="max-w-6xl mx-auto px-6 py-10">
         {/* Toggle Button */}
         {/* <div className="flex justify-end mb-10">
           <button onClick={toggleDarkMode} className="flex items-center gap-2 px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-full shadow hover:scale-105 transition">
@@ -73,7 +73,7 @@ const Page = () => {
         {/* Timeline Section */}
         <div className="relative border-l-4  border-red-400 ml-6">
           {timelineItems.map((item, index) => (
-            <motion.div key={index} className="mb-16 ml-8 relative" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn(index % 2 === 0 ? "left" : "right")}>
+            <motion.div key={index} className=" ml-8 relative" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn(index % 2 === 0 ? "left" : "right")}>
               {/* Pulse Dot */}
               <div className="absolute -left-9 top-3">
                 <span className="relative flex h-4 w-4">
@@ -83,7 +83,7 @@ const Page = () => {
               </div>
 
               {/* Timeline Card */}
-              <div className={`shadow-md rounded-xl p-6 ${darkMode ? "bg-gray-800" : "bg-white"}`}>
+              <div className={`shadow-md rounded-xl  p-6 ${darkMode ? "bg-gray-800" : "bg-white"}`}>
                 <div className="flex items-center gap-3 mb-4">
                   <div className="p-3 bg-gray-100 dark:bg-gray-700 rounded-full">{item.icon}</div>
                   <div className="flex items-center gap-2">

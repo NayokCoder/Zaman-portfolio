@@ -23,7 +23,8 @@
     "client": "a2i, Bangladesh",
     "techStack": ["PHP", "Laravel", "MySQL", "CI/CD"],
     "description": "National Portal development and enhancement to improve service access, security, scalability, and user experience.",
-    "details": "Secure Architecture\nOpen Source Framework\nUser-friendly Design\nAgile Practices\nInfrastructure and DevOps\nStakeholder Engagement\nClients: 33,000+ Govt Offices"
+    "details": "Secure Architecture\nOpen Source Framework\nUser-friendly Design\nAgile Practices\nInfrastructure and DevOps\nStakeholder Engagement\nClients: 33,000+ Govt Offices",
+    "image": "https://i.ibb.co/CK9YfK8J/Screenshot-2025-05-13-104739.png"
   },
   {
     "id": 3,
@@ -32,7 +33,8 @@
     "client": "UNDP & a2i",
     "techStack": ["Web", "Android"],
     "description": "Digital platform for access to legal aid and family violence reporting in Tonga.",
-    "details": "Online Legal Info & Self-Help\nData Security Planning\nPhase-wise Development\nSafe Anonymous Access\nKnowledge Transfer"
+    "details": "Online Legal Info & Self-Help\nData Security Planning\nPhase-wise Development\nSafe Anonymous Access\nKnowledge Transfer",
+    "image": "https://i.ibb.co/LXFjk64j/TGNS.png"
   },
   {
     "id": 4,
@@ -41,7 +43,8 @@
     "client": "National Board of Revenue",
     "techStack": ["C#", "ASP.NET", "SQL Server"],
     "description": "Comprehensive VAT processing software for manufacturing, trading, and service organizations.",
-    "details": "Multi-company Support\nPurchase/Sales Management\nInventory Tracking\nVAT Return Automation\nAudit & Compliance Tools\nClients: Square, Beximco, Incepta, Transcom"
+    "details": "Multi-company Support\nPurchase/Sales Management\nInventory Tracking\nVAT Return Automation\nAudit & Compliance Tools\nClients: Square, Beximco, Incepta, Transcom",
+    "image": "https://i.ibb.co/pvCCpfxp/Screenshot-2025-05-13-105159.png"
   },
   {
     "id": 5,
@@ -50,7 +53,8 @@
     "client": "Corporate Clients",
     "techStack": [".NET", "SQL Server"],
     "description": "End-to-end HR automation system for corporate clients.",
-    "details": "Employee & Payroll Management\nESS, Leave & Attendance\nTax, Asset, Travel Management\nClients: Khulna Power Plant, Avery Denison"
+    "details": "Employee & Payroll Management\nESS, Leave & Attendance\nTax, Asset, Travel Management\nClients: Khulna Power Plant, Avery Denison",
+    "image": "https://i.ibb.co/MyYGBn4j/Screenshot-2025-05-13-105247.png"
   },
   {
     "id": 6,
@@ -59,7 +63,8 @@
     "client": "Dan Foods Bangladesh Ltd.",
     "techStack": [".NET", "SQL Server"],
     "description": "System for managing item, requisition, distribution, and sales.",
-    "details": "Requisition & Inventory\nDistributor and Depot Management\nSales & Accounts\nReport Generation"
+    "details": "Requisition & Inventory\nDistributor and Depot Management\nSales & Accounts\nReport Generation",
+    "image": "https://i.ibb.co/M5g8jXxd/Screenshot-2025-05-13-105336.png"
   },
   {
     "id": 7,

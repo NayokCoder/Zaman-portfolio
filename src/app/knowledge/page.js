@@ -95,8 +95,8 @@ const Page = () => {
   const featuredPost = posts[0];
   console.log(posts);
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50">
-      <main className="max-w-3xl mx-auto px-4 pt-8 pb-16">
+    <div className="min-h-screen setbgoff">
+      <main className="max-w-6xl mx-auto px-4 pt-8 pb-16">
         {/* Featured Post */}
         <Link href={`/blog/${featuredPost.slug}`} className="block relative h-96 rounded-2xl overflow-hidden shadow-xl mb-12">
           <Image src={featuredPost.featuredImage} alt={featuredPost.title} layout="fill" objectFit="cover" className="absolute inset-0" unoptimized />
@@ -111,7 +111,7 @@ const Page = () => {
         </Link>
 
         {/* Author Info */}
-        <div className="flex items-start space-x-6 p-6 bg-white rounded-xl shadow-sm mb-12">
+        <div className="flex items-start space-x-6 p-6 setbgOff rounded-xl shadow-sm mb-12">
           <Image src={featuredPost.author.avatar} alt={featuredPost.author.name} width={80} height={80} className="rounded-full" />
           <div>
             <h3 className="text-xl font-semibold mb-2">{featuredPost.author.name}</h3>
@@ -135,9 +135,9 @@ const Page = () => {
 
         {/* Article Content */}
         <article
-          className="prose prose-lg max-w-none 
+          className="prose prose-lg max-w-none   text-gray-700
           [&_h2]:text-3xl [&_h2]:font-bold [&_h2]:mt-12 [&_h2]:mb-6
-          [&_p]:text-gray-700 [&_p]:leading-relaxed [&_p]:mb-6
+          [&_p]:text-black text-lg [&_p]:leading-relaxed [&_p]:mb-6
           [&_a]:text-blue-600 [&_a]:hover:underline
           [&_pre]:bg-gray-900 [&_pre]:p-6 [&_pre]:rounded-xl [&_pre]:text-gray-100
           [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-6"
@@ -145,40 +145,45 @@ const Page = () => {
           <div dangerouslySetInnerHTML={{ __html: featuredPost.content }} />
         </article>
 
-        {/* All Posts */}
-        <h2 className="text-2xl font-bold mt-16 mb-4">Latest Posts</h2>
-        {posts.map((post) => (
-          <Link href={`/blog/${post.slug}`} key={post.slug} className="block bg-white rounded-2xl shadow-md overflow-hidden mb-8 hover:shadow-lg transition-shadow">
-            <div className="relative h-64">
-              <Image src={post.featuredImage} alt={post.title} fill className="object-cover" unoptimized />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-              <div className="absolute bottom-4 left-4 text-white z-10">
-                <h2 className="text-2xl font-semibold">{post.title}</h2>
-                <p className="text-sm mt-1">
+        <div className="border-t border-gray-200 pt-20">
+          {/* All Posts */}
+
+          {posts.slice(1).map((post) => (
+            <Link href={`/blog/${post.slug}`} key={post.slug} className="flex flex-col md:flex-row  rounded-2xl  overflow-hidden mb-6 hover:shadow-lg transition-shadow">
+              {/* Text Section */}
+              {/* Image Section */}
+              <div className="md:w-64 w-full h-48 md:h-auto relative">
+                <Image src={post.featuredImage} alt={post.title} fill className="object-cover" unoptimized />
+              </div>
+              <div className="flex-1 p-6">
+                <p className="text-gray-600 text-sm mb-4">
                   {post.readTime} • {post.date}
                 </p>
-              </div>
-            </div>
+                <p className="text-gray-700 mb-4">{post.excerpt}</p>
 
-            <div className="p-6">
-              <div className="flex items-center gap-4 mb-4">
-                <Image src={post.author.avatar} alt={post.author.name} width={40} height={40} className="rounded-full" />
+                {/* Author */}
                 <div>
-                  <p className="font-medium">{post.author.name}</p>
-                  <p className="text-sm text-gray-500">{post.author.bio}</p>
+                  <p dangerouslySetInnerHTML={{ __html: post.content }} />
+                </div>
+
+                {/* Tags */}
+                <div className="flex flex-wrap gap-2 mt-4">
+                  {post.tags.map((tag) => (
+                    <span key={tag} className="text-sm bg-blue-100 text-blue-700 px-3 py-1 rounded-full">
+                      #{tag}
+                    </span>
+                  ))}
                 </div>
               </div>
-
-              <div className="flex flex-wrap gap-2">
-                {post.tags.map((tag) => (
-                  <span key={tag} className="text-sm bg-blue-100 text-blue-700 px-3 py-1 rounded-full">
-                    #{tag}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </Link>
-        ))}
+              <h2 className="text-xl md:text-2xl font-semibold mb-2 settext w-96 p-4 flex items-center">{post.title}</h2>
+            </Link>
+          ))}
+        </div>
+        <div className="join flex justify-end mt-8">
+          <button className="join-item btn">«</button>
+          <button className="join-item btn">Page 1</button>
+          <button className="join-item btn">»</button>
+        </div>
 
         {/* CTA Section */}
         <div className="mt-16 p-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl text-center text-white shadow-xl">

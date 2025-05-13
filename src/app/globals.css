@@ -22,6 +22,16 @@ html {
 .setbg {
   background-color: #028697;
 }
+
+.buttonx {
+  background-color: black;
+}
+.buttonx:hover {
+  background-color: #028697; /* teal-500 এর hex code */
+}
 .setbg2 {
   background-color: #f2f2f2;
+}
+.setbgOff {
+  background-color: #f8f5f0;
 }

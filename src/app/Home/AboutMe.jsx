@@ -7,9 +7,9 @@ import { MdWorkOutline } from "react-icons/md";
 
 const AboutMe = () => {
   return (
-    <section className="bg-gray-50">
+    <section className="">
       <div className=" py-16 px-6 text-center max-w-6xl mx-auto">
-        <h2 className="text-2xl font-bold text-center settext mb-4">About me</h2>
+        {/* <h2 className="text-3xl font-bold text-center settext mb-4">About me</h2> */}
 
         <div className="flex flex-col md:flex-row mt-16  gap-10 ">
           <Image src="/assets/Profile.png" alt="Profile" width={512} height={512} className="w-sm h-[512px] rounded-2xl object-cover" />
