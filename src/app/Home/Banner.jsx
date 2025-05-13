@@ -16,8 +16,8 @@ const Banner = () => {
         I’m a strategic and results-driven Project Manager with over 15 years of experience in the ICT sector. I specialize in leading large-scale software development, IT service delivery, and digital transformation initiatives across government, UNDP, and international platforms—including projects with <span className="font-semibold">a2i (UNDP) ,NBR (VAT Online Project)</span>, and global clients.
       </p>
       <div className="flex gap-4">
-        <button className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">connect with me →</button>
-        <button className="flex items-center gap-2 border border-gray-300 px-6 py-2 rounded-full hover:bg-gray-100 transition">
+        <button className="bg-black text-white px-6 py-2 rounded-full hover:bg-teal-500 transition">connect with me →</button>
+        <button className="flex items-center gap-2 border border-gray-300 px-6 py-2 rounded-full hover:bg-teal-500 hover:text-white shadow-2xl transition">
           my resume <Download size={16} />
         </button>
       </div>
